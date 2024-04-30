@@ -1,0 +1,169 @@
+.navigation {
+  background-color: var(--primary-color);
+  padding-bottom: 1rem;
+}
+
+.buttonsNavBar {
+  background-color: var(--background-color);
+  border-radius: 50%;
+  height: 7vh;
+  padding: 0.8em;
+}
+
+.shopNavBar {
+  display: none;
+}
+.buttonsNavBar:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.h1andButtonsContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-right: 0.5rem;
+}
+.h1andButtonsContainer a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.textlabelnav {
+  font-size: 0px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10vh;
+}
+.itemsCountContainer {
+  background-color: var(--secondary-color);
+  height: 3vh;
+  width: 3vh;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  color: var(--background-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image_logo {
+  display: none;
+}
+
+.h1FeetAndFun {
+  font-size: 3em;
+  text-align: center;
+  color: var(--background-color);
+}
+
+.imagetraitsburger {
+  width: 30px;
+  position: fixed;
+  top: 47px;
+  left: 17px;
+}
+.bouton_menu_burger {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  border: none;
+  background-color: var(--fourth-color);
+  position: fixed;
+  top: 30px;
+  left: 0px;
+  z-index: 999;
+}
+.bouton_menu_burger:active {
+  transform: none;
+}
+
+.and {
+  color: var(--fourth-color);
+}
+
+.online-shop {
+  text-align: center;
+  color: var(--background-color);
+  margin-top: -1.5vh;
+}
+.searchInNav {
+  display: none;
+}
+
+.groupeBoutonsNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.groupeBoutonsNav a {
+  margin-left: 0.5rem;
+}
+
+.test {
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .navigation {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+  }
+  .shopNavBar {
+    display: block;
+  }
+  .buttonsNavBar {
+    height: 7vh;
+  }
+
+  .buttonsNavBar:active {
+    transform: translate(0px, 3px);
+    -webkit-transform: translate(0px, 3px);
+  }
+
+  .bouton_menu_burger {
+    display: none;
+  }
+  .searchInNav {
+    display: inline-block;
+    width: 20vw;
+    border-radius: 20px;
+  }
+
+  .groupeBoutonsNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+  }
+  .image_logo {
+    display: block;
+    width: 3em;
+    height: 3em;
+    padding: 0.2em;
+    border: none;
+  }
+
+  .h1FeetAndFun {
+    font-size: 3em;
+  }
+}

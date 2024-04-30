@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Racing+Sans+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Racing+Sans+One&family=Slackey&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Marko+One&family=Nanum+Pen+Script&family=Racing+Sans+One&family=Slackey&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Marko+One&family=Nanum+Pen+Script&family=Racing+Sans+One&family=Slackey&family=Vampiro+One&display=swap");
+
+.categories {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .nanum-pen script-regular {
+    font-family: "Nanum Pen Script", cursive;
+    font-style: normal;
+  }
+
+  .racing-sans one-regular {
+    font-family: "Racing Sans One", sans-serif;
+    font-style: normal;
+  }
+
+  .slackey-regular {
+    font-family: "Slackey", sans-serif;
+    font-style: normal;
+  }
+
+  .marko-one-regular {
+    font-family: "Marko One", serif;
+    font-style: normal;
+  }
+
+  .vampiro-one-regular {
+    font-family: "Vampiro One", system-ui;
+    font-style: normal;
+  }
+
+  .categories {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 4em;
+    background-color: var(--card-background);
+    border-bottom: 2px solid lightgrey;
+  }
+
+  .ulCategories {
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--card-background);
+  }
+
+  .categories button {
+    font-family: var(--primary-font);
+    font-size: 1.2em;
+    font-weight: bolder;
+  }
+  .categories button:hover,
+  .end-navigation.navigation-footer:hover,
+  .button_accueil:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+    color: var(--primary-color);
+    text-shadow: 1px 2px 3px rgb(221, 184, 136);
+    background-color: var(--card-background);
+    cursor: pointer;
+  }
+
+  .button_accueil {
+    height: 4vh;
+  }
+
+  .button_art {
+    background-color: var(--card-background);
+    border: var(--card-background);
+    color: var(--text-color);
+  }
+
+  .button_sport_active {
+    background-color: var(--card-background);
+    border: var(--card-background);
+    padding: -10px;
+    color: var(--secondary-color);
+    transform: scale(1.2);
+    text-shadow: 5px 5px 5px black;
+  }
+
+  .button_sport {
+    background-color: var(--card-background);
+    border: var(--card-background);
+    padding: -10px;
+    color: var(--text-color);
+  }
+
+  .button_geek_active {
+    background-color: var(--card-background);
+    border: var(--card-background);
+    padding: -10px;
+    transform: scale(1.2);
+    color: var(--secondary-color);
+    text-shadow: 5px 5px 5px black;
+  }
+
+  .button_geek {
+    background-color: var(--card-background);
+    border: var(--card-background);
+    padding: -10px;
+    color: var(--text-color);
+  }
+
+  .button_anime_active {
+    font-size: 30px;
+    background-color: var(--card-background);
+    border: var(--card-background);
+    transform: scale(1.2);
+    color: var(--secondary-color);
+    text-shadow: 5px 5px 5px black;
+  }
+
+  .button_anime {
+    background-color: var(--card-background);
+    border: var(--card-background);
+    padding: -10px;
+    color: var(--text-color);
+  }
+
+  .button_festif_active {
+    background-color: var(--card-background);
+    border: var(--card-background);
+    padding: -10px;
+    color: var(--text-color);
+    transform: scale(1.2);
+    color: var(--secondary-color);
+    text-shadow: 5px 5px 5px black;
+  }
+
+  .button_festif {
+    background-color: var(--card-background);
+    border: var(--card-background);
+    padding: -10px;
+    color: var(--text-color);
+  }
+}
