@@ -48,7 +48,8 @@ function ContactUs() {
   return (
     <div className="contactSection">
       <h3 className="titleRubrique">Contact</h3>
-      <form className="frm" ref={form} onSubmit={sendEmail}>
+      {/* <form className="frm" ref={form} onSubmit={sendEmail}> */}
+      <form className="frm">
         <div className="contact-container">
           <div className="infoContactSection">
             <div className="numberContact  champ">
