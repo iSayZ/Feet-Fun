@@ -10,12 +10,17 @@ function Test() {
     setImage(imageSrc);
   };
 
+  const videoConstraints = {
+    facingMode: { exact: "environment" }
+  };
+
   return (
     <div className="Test">
       <Webcam
         audio={false}
         ref={webcamRef}
         screenshotFormat="image/jpeg"
+        videoConstraints={videoConstraints}
       />
       <button onClick={capture}>Capture Photo</button>
       {image && <img src={image} alt="Captured" />}
