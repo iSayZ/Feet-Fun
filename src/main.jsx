@@ -44,6 +44,7 @@ const router = createBrowserRouter([
       { path: "/livraison", element: <Deliveries />, loader: () => getData() },
       { path: "/recherche", element: <Search />, loader: () => getData() },
       { path: "/filtre", element: <Filter />, loader: () => getData() },
+      { path:"test", element: <Test />}
     ],
   },
 ]);
