@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Deliveries from "./pages/Deliveries";
 import Search from "./pages/Search";
 import Filter from "./pages/Filter";
+import Test from "./pages/Test";
 
 
 // Le useEffect fait un appel d'API au démarrage de la page et stock le resultat dans le state "data"
