@@ -38,6 +38,7 @@ function Test() {
             ref={webcamRef}
             screenshotFormat="image/jpeg"
             className="webcam"
+            screenshotQuality={1}
             videoConstraints={videoConstraints}
           />
             }
