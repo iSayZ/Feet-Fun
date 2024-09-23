@@ -1,4 +1,4 @@
-# ✨ Feet & Fun
+# 🧦 Feet & Fun
 
 > "Bienvenue sur Feet & Fun, un projet passionnant réalisé en équipe, axé sur la vente de chaussettes uniques."
 
