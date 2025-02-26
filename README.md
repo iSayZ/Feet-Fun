@@ -8,7 +8,7 @@
 
 <div>
   <a href="https://drive.google.com/file/d/1Gv6c8CJhwKkj04s0U8DzqYdQmTMVIQSq/view?usp=sharing">
-    <img src="https://i.ibb.co/znC81Fn/shop-min.png" alt="Démo" width="400" />
+    <img src="https://portfolio-v1.estrine-alexis.fr/assets/projects/feet-n-fun/video.png" alt="Démo" width="400" />
   </a>
 </div>
 
